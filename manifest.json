@@ -1,0 +1,27 @@
+{
+  "name": "Polling Extensions",
+  "description": "Extension for polling inside Google slides",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "poll.png"
+  },
+  "permissions": ["tabs", "scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "js": ["content-script.js"],
+      "css": ["styles.css"],
+      "matches": [
+        "https://developer.chrome.com/docs/extensions/*",
+        "https://developer.chrome.com/docs/webstore/*",
+        "https://www.google.com/*",
+        "https://stackoverflow.com/*"
+      ]
+    }
+  ]
+}
+
