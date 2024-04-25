@@ -16,9 +16,6 @@
       "js": ["content-script.js"],
       "css": ["styles.css"],
       "matches": [
-        "https://developer.chrome.com/docs/extensions/*",
-        "https://developer.chrome.com/docs/webstore/*",
-        "https://www.google.com/*",
         "https://stackoverflow.com/*"
       ]
     }

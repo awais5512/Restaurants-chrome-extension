@@ -22,7 +22,8 @@ body {
   inset: 0;
   background-color: rgba(255, 217, 0, 0.59);
   max-width: 50%;
-  height: 50vh;
+  height: 70vh;
+  overflow-y: scroll;
   margin-inline: auto;
   backdrop-filter: blur(3px);
   margin-top: 5rem;
@@ -55,6 +56,38 @@ body {
   font-size: 1.2rem;
   width: fit-content;
   border-radius: 2rem;
+}
+
+.alert-success {
+  padding: 1rem;
+  background-color: green;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.add-restaurant-field {
+  padding: 0.6rem 1rem;
+  font-size: 1.2rem;
+  width: 300px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+.add-restaurant-button {
+  padding: 0.6rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  border: none;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.add-restaurant-button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 @keyframes wobble {
