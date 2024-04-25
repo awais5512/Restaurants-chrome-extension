@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const container = document.getElementById('dataContainer');
     const p = document.createElement('p');
 
-    p.textContent = "Food first then code.";
+    p.textContent = "This extension shows a modal when you open Stackoverflow.";
     container.appendChild(p);
   } else {
     const container = document.querySelector(".container");
